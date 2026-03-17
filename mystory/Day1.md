@@ -1,7 +1,12 @@
-# Study Session Summary
-#First day
+---
+title: Day 1
+date: 2026-03-17
+topic: TCP Server Boilerplate in C
+---
 
-Today marked my first official step into raw, system‑level C network programming. Moving away from high‑level abstractions, I successfully wrote the boilerplate to initialize a TCP server. The program communicates directly with the Linux OS to allocate a network socket, safely initializes memory to handle cross‑architecture endianness, binds the socket to a specific port, and enters a passive listening state.
+# Day 1 — TCP Server Boilerplate in C
+
+Today I took my first official step into raw, system‑level C network programming. I wrote the boilerplate to initialize a TCP server that speaks directly to the Linux OS: it allocates a network socket, clears memory, handles endianness translation, binds to a specific port, and enters a passive listening state.
 
 ---
 
