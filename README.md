@@ -8,8 +8,10 @@ This repo is my daily learning journal for low‑level, system‑level networkin
 - Keep concise daily notes and code snippets in `DayX.md` files.
 
 **Daily log format**
-- `Day1.md`
+- `Day1.md`, `Day2.md`, `Day3.md`, ...
 - Each day includes a summary, code, and a short deep‑dive on key ideas.
 
-If you’re following along, feel free to explore the daily notes and compare progress over time.
+**Daily links**
+- [Day 1](Day1.md)
 
+If you’re following along, feel free to explore the daily notes and compare progress over time.
