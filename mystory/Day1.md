@@ -1,4 +1,5 @@
 # Study Session Summary
+#First day
 
 Today marked my first official step into raw, system‑level C network programming. Moving away from high‑level abstractions, I successfully wrote the boilerplate to initialize a TCP server. The program communicates directly with the Linux OS to allocate a network socket, safely initializes memory to handle cross‑architecture endianness, binds the socket to a specific port, and enters a passive listening state.
 
