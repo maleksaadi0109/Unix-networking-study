@@ -14,5 +14,10 @@ This repo is my daily learning journal for low‑level, system‑level networkin
 **Daily links**
 - [Day 1](study-logs/Day1.md)   - [Day 2](study-logs/Day2.md)
 
-
 If you’re following along, feel free to explore the daily notes and compare progress over time.
+
+**References I use**
+- Beej’s Guide to Network Programming
+- UNIX Network Programming: The Sockets Networking API (W. Richard Stevens, Bill Fenner, Andrew M. Rudoff)
+- GeeksforGeeks (https://www.geeksforgeeks.org/)
+
