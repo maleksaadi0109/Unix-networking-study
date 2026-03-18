@@ -12,10 +12,9 @@ This repo is my daily learning journal for low‑level, system‑level networkin
 - Each day includes a summary, code, and a short deep‑dive on key ideas.
 
 **Daily links**
-- [Day 1](study-logs/Day1.md)
+- [Day 1](study-logs/Day1.md)   - [Day 2](study-logs/Day2.md)
 
 <<<<<<< HEAD
 If you’re following along, feel free to explore the daily notes and compare progress over time.
 =======
 If you’re following along, feel free to explore the daily notes and compare progress over time.
->>>>>>> 98805b557788d6e00ed578b6cf2784e94d711ed8
