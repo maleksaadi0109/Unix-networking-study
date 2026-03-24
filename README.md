@@ -1,26 +1,56 @@
-# Unix Networking — Study Log
+# Unix Networking - Study Log
 
-This repo is my daily learning journal for low‑level, system‑level networking in C on Linux.
+This repository is my learning journal for low-level Unix and Linux network programming in C.
 
-Current milestone: I finished Chapter 1 of *UNIX Network Programming: The Sockets Networking API* and started building basic UDP client/server examples.
+Current milestone: I moved from basic TCP and UDP examples into a non-blocking TCP server using `select()` and file descriptor sets.
 
-**What I plan to do here**
-- Study core networking concepts (sockets, TCP/UDP, byte order, and OS‑level APIs).
-- Write small C programs that interact directly with the kernel networking stack.
-- Keep concise daily notes and code snippets in `DayX.md` files.
+## What This Repo Is For
 
-**Daily log format**
-- `Day1.md`, `Day2.md`, `Day3.md`, ...
-- Each day includes a summary, code, and a short deep‑dive on key ideas.
+- Study core networking ideas like sockets, TCP, UDP, byte order, blocking vs non-blocking I/O, and how the OS handles connections.
+- Build small C programs that talk directly to the kernel networking stack.
+- Keep daily study notes that are easy to review later.
 
-**Daily links**
-- [Day 1](study-logs/Day1.md)   - [Day 2](study-logs/Day2.md)   - [Day 3](study-logs/Day3.md)   - [Day 4](study-logs/Day4.md)
+## Study Log Structure
 
-**References I use**
-- Beej’s Guide to Network Programming
-- UNIX Network Programming: The Sockets Networking API (W. Richard Stevens, Bill Fenner, Andrew M. Rudoff)
-- GeeksforGeeks (https://www.geeksforgeeks.org/)
+Each day is stored inside `study-logs/`:
 
-If you’re following along, feel free to explore the daily notes and compare progress over time.
+- `Day1.md`
+- `Day2.md`
+- `Day3.md`
+- `Day4.md`
+- `Day5.md`
+
+Each note includes:
+
+- What I studied
+- The main code pattern
+- Important concepts
+- A short reflection
+
+## Daily Notes
+
+- [Day 1](study-logs/Day1.md) - TCP server boilerplate in C
+- [Day 2](study-logs/Day2.md) - TCP client/server communication basics
+- [Day 3](study-logs/Day3.md) - OSI model, sockets interface, and the TCP daytime server
+- [Day 4](study-logs/Day4.md) - UDP client/server basics and finishing Chapter 1
+- [Day 5](study-logs/Day5.md) - Non-blocking TCP server with `select()`
+
+## Topics Covered So Far
+
+- TCP socket setup with `socket()`, `bind()`, `listen()`, and `accept()`
+- Iterative TCP servers
+- UDP communication with `recvfrom()` and `sendto()`
+- IPv4 basics
+- Socket API structure inside the networking stack
+- Non-blocking sockets with `fcntl()`
+- I/O multiplexing with `select()`
+
+## References I Use
+
+- Beej's Guide to Network Programming
+- UNIX Network Programming: The Sockets Networking API
+- GeeksforGeeks
+
+This repo is meant to show progress day by day, so the notes are written in a way that helps me revise later, not just record code.
 
 
