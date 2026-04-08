@@ -17,6 +17,7 @@ The goal is to move from basic socket programming to scalable event-driven serve
 - `TcpDaytimeSystem/` - Daytime client/server practice
 - `un-blocking/` - Non-blocking server with `select()`
 - `epoll_socket_server/` - Event-driven server experiments with `epoll`
+- `http_server.c` - Non-blocking `epoll` HTTP static file server (single-file implementation)
 - `study-logs/` - Daily learning notes
 
 ## Study Progress
@@ -30,6 +31,7 @@ The goal is to move from basic socket programming to scalable event-driven serve
 | 5 | Non-blocking TCP server with `select()` | [Day5.md](study-logs/Day5.md) |
 | 6 | Building `Tcp_epoll_server.c` from scratch | [Day6.md](study-logs/Day6.md) |
 | 7 | Structuring and polishing the `epoll` server workflow | [Day7.md](study-logs/Day7.md) |
+| 8 | Building an `epoll`-based HTTP static file server | [Day8.md](study-logs/Day8.md) |
 
 ## Core Topics Covered
 
@@ -39,6 +41,7 @@ The goal is to move from basic socket programming to scalable event-driven serve
 - Non-blocking sockets with `fcntl()`
 - Multiplexing with `select()`
 - Event-driven design with `epoll`
+- Basic HTTP request parsing and static file responses
 
 ## References
 
@@ -47,4 +50,3 @@ The goal is to move from basic socket programming to scalable event-driven serve
 - Linux manual pages (`man 2 socket`, `man 7 epoll`, etc.)
 
 This repository is a revision-friendly learning trail: each day records what was built, what was understood, and what comes next.
-
